@@ -1,0 +1,33 @@
+{
+  "language": "TypeScript",
+  "installCommand": "npm install",
+  "formatCommand": "npm run lint:fix",
+  "buildCommand": "SKIP_ENV_VALIDATION=1 npm run build --verbose",
+  "style": "Tailwind",
+  "iconSet": "Font Awesome",
+  "componentExamples": "/src/components/ExampleComponent.js",
+  "apiEndpointsExamples": "/src/api/exampleEndpoint.js",
+  "pageExamples": "/src/pages/ExamplePage.js",
+  "directories": {
+    "components": "/src/components",
+    "pages": "/src/pages",
+    "types": "/src/types",
+    "styles": "/src/styles",
+    "tailwindConfig": "/tailwind.config.ts",
+    "staticAssets": "/public"
+  },
+  "stateManagement": {
+    "tool": "None"
+  },
+  "testing": {
+    "writeTests": false
+  },
+  "storybook": {
+    "writeStories": true,
+    "storiesLocation": "/src/stories"
+  },
+  "envVariables": {
+    "exampleFile": "/.env.example"
+  },
+  "env": ""
+}
